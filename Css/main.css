@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  margin-left: 30rem;
+  max-width: 40rem;
+  padding: 0.5rem;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* Sidebar */
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 20rem;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: var(--white-color);
+}
+
+.side-bar-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.side-bar-items {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+/* .side-bar-flex {
+} */
+
+.title-website {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+}
