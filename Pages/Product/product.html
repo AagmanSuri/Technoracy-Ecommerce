@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://technoracy-ui.netlify.app/Css/components.css">
     <link rel="stylesheet" href="../../Css/main.css">
     <link rel="stylesheet" href="../Product/product.css">
+    <link rel="stylesheet" href="../../Css/slider.css">
 </head>
 
 <body>
@@ -50,8 +51,72 @@
         <div class="side-bar">
 
             <div class="side-bar-flex">
-                <div>Filter</div>
-                <div>Clear</div>
+                <div class="slidecontainer">
+                    <p class="sidebar-heading">Price</p>
+                    <label>0</label>
+                    <input type="range" min="1" max="100" value="50">
+                    <label>100</label>
+                </div>
+
+                <div>
+                    <p class="sidebar-heading">Category</p>
+
+                    <div>
+                        <input type="checkbox" name="sample">
+                        <label class="checkbox-btn">Laptop</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="sample">
+                        <label class="checkbox-btn">Tablet</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="sample">
+                        <label class="checkbox-btn">Phone</label>
+                    </div>
+
+
+
+                </div>
+
+                <div>
+                    <p class="sidebar-heading">Rating</p>
+
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">4 star & above</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">3 star & above</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">2 star & above</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">1 star & above</label>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p class="sidebar-heading">Sort by</p>
+
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">Price - Low to high</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">Price - high to low</label>
+                    </div>
+
+
+                </div>
 
             </div>
 
