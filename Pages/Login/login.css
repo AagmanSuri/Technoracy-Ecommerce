@@ -1,0 +1,62 @@
+.card-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 20vh;
+}
+
+.card-login {
+  background-color: var(--white-color);
+  height: 40rem;
+  width: 40rem;
+  border-radius: 1rem;
+}
+
+.login-heading {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.input-group {
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.checkbox-group {
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+
+.forogot-pwd {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.btn-group {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.btn {
+  width: 60%;
+}
+
+.create-account {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.create-account a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
