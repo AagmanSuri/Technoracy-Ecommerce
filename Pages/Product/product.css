@@ -1,0 +1,9 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 22rem;
+  margin-top: -75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}

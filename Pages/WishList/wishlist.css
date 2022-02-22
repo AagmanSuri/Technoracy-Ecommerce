@@ -1,0 +1,19 @@
+.add-to-cart {
+  width: 50%;
+}
+.heading {
+  font-size: 3rem;
+}
+
+.container-cart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.card-btn {
+  text-align: center;
+}
